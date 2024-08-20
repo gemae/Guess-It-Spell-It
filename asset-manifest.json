@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Guess-It-Spell-It/static/css/main.2995986d.css",
+    "main.js": "/Guess-It-Spell-It/static/js/main.bda5922b.js",
+    "static/js/453.ace9e3a0.chunk.js": "/Guess-It-Spell-It/static/js/453.ace9e3a0.chunk.js",
+    "static/media/orange.png": "/Guess-It-Spell-It/static/media/orange.13ac261208bd931075aa.png",
+    "static/media/strawberry.png": "/Guess-It-Spell-It/static/media/strawberry.cffd9f169f5429fc6a64.png",
+    "static/media/pineapple.png": "/Guess-It-Spell-It/static/media/pineapple.33c8f1f599e9c97cc1e8.png",
+    "static/media/cherry.png": "/Guess-It-Spell-It/static/media/cherry.f61d1425737c3362717d.png",
+    "static/media/grapes.png": "/Guess-It-Spell-It/static/media/grapes.a5e33009fb25a36ec6cf.png",
+    "static/media/banana.png": "/Guess-It-Spell-It/static/media/banana.018436b7120876acff9b.png",
+    "static/media/carrots.png": "/Guess-It-Spell-It/static/media/carrots.b949c314939a53c00e50.png",
+    "static/media/avocado.png": "/Guess-It-Spell-It/static/media/avocado.c17a8367ae115430488e.png",
+    "static/media/lemon.png": "/Guess-It-Spell-It/static/media/lemon.ce7dc0d718f683c7b1db.png",
+    "static/media/apple.png": "/Guess-It-Spell-It/static/media/apple.d8ace1167064b677208d.png",
+    "index.html": "/Guess-It-Spell-It/index.html",
+    "main.2995986d.css.map": "/Guess-It-Spell-It/static/css/main.2995986d.css.map",
+    "main.bda5922b.js.map": "/Guess-It-Spell-It/static/js/main.bda5922b.js.map",
+    "453.ace9e3a0.chunk.js.map": "/Guess-It-Spell-It/static/js/453.ace9e3a0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2995986d.css",
+    "static/js/main.bda5922b.js"
+  ]
+}
