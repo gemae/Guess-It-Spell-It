@@ -1,0 +1,149 @@
+/* GuessItSpellIt.css */
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    background: #FFFBE6;
+    color: #2F3645;
+    max-height: 100vh;
+    position: relative;
+}
+.game-container {
+    display: flex;
+    justify-content:  space-between;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 900px;
+    height: 100%;
+  }
+  .game-wrapper {
+    margin-top: -100px;
+  }
+  .title {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #4a4737;
+    padding-top: 100px;
+  }
+  .result-wrapper {
+      padding: 20px;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      width: fit-content;
+      background: #b2ac88;
+      color: white;
+  }
+
+  .points {
+    text-align: right;
+  }
+
+  .object-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+  }
+  
+  .blank-card {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+  }
+  /*start  */
+  /* .letter-button {
+    position: relative;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+  }
+  
+  .letter-button.animating {
+    position: absolute;
+    z-index: 10;
+  } */
+  
+/* End */
+
+  .letter {
+    font-size: 45px;
+    margin: 0 10px;
+    border: 2px solid #2F3645;
+    border-radius: 10px;
+    width: 50px;
+    height: 60px;
+    display: block;
+    cursor: pointer;
+    background: white;
+  }
+  
+  .letter-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+    gap: 10px;
+    padding-top: 20px;
+  }
+  
+  .letter-button {
+    font-family: 'Quicksand', sans-serif;
+    margin: 5px;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #4a4737;
+    cursor: pointer;
+    font-size: 45px;
+    width: 60px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  .letter-button:hover {
+    background-color: #c6c3ae;
+    color: #4a4737;
+  }
+
+  .letter-button[disabled] {
+    background-color: #c6c3ae;
+    color: #c6c3ae;
+  }
+  
+  .letter-button[disabled]:hover {
+    background-color: #c6c3ae;
+    color: #c6c3ae;
+  }
+
+  .result {
+    margin-top: 20px;
+  }
+
+  .result.incorrect {
+    color: rgb(175, 76, 76);
+  }
+  
+  .next-button, .clear-button {
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+  }
+  .next-button {
+    background-color: #4CAF50;
+  }
+
+  .clear-button {
+    background-color: rgb(175, 76, 76);
+  }
+  
+  .next-button:hover {
+    background-color: #45a049;
+  }
+  
